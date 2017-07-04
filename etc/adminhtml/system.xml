@@ -14,7 +14,8 @@
 -->
 			<group
 				id='books'
-				showInDefault='1' showInStore='1' showInWebsite='1' sortOrder='215'
+				showInDefault='1' showInStore='1' showInWebsite='1'
+				sortOrder='215'
 				translate='label'
 			>
 				<label>Books</label>
@@ -22,7 +23,8 @@
 				<frontend_model>Df\Config\Fieldset</frontend_model>
 				<field
 					id='enable'
-					showInDefault='1' showInStore='1' showInWebsite='1' sortOrder='1'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='1'
 					translate='label'
 					type='Df\Framework\Form\Element\Checkbox'
 				>
