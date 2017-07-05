@@ -20,6 +20,6 @@ final class Basic extends TestCase {
 			,'Authorization' => 'Zoho-authtoken ' . S::s()->token()
 		]);
 		$c->setUri('https://books.zoho.com/api/v3/organizations');
-		echo df_json_encode_pretty(df_ksort_r(df_json_decode($c->request()->getBody())));
+		echo df_json_prettify($c->request()->getBody());
 	}
 }
