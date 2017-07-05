@@ -1,13 +1,13 @@
 <?php
 namespace Dfe\ZohoBooks\API;
 // 2017-07-05
-final class Client extends \Df\Zoho\API\Client {
+final class Client extends \Df\Zoho\API\BI\Client {
 	/**
-	 * 2017-07-05
+	 * 2017-07-06
 	 * @override
-	 * @see \Df\API\Client::uriBase()
-	 * @used-by \Df\API\Client::p()
-	 * @return string
+	 * @see \Df\Zoho\API\BI\Client::version()
+	 * @used-by \Df\Zoho\API\BI\Client::uriBase()
+	 * @return int
 	 */
-	protected function uriBase() {return 'https://books.zoho.com/api/v3';}
+	protected function version() {return 3;}
 }
