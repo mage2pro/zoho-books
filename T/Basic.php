@@ -11,8 +11,8 @@ final class Basic extends TestCase {
 	function t01_token() {echo S::s()->token();}
 
 	/** @test 2017-07-05 */
-	function t02_organizations() {echo df_json_encode_pretty(F::organizations());}
+	function t02_organizations() {echo df_json_encode(F::organizations());}
 
 	/** 2017-07-06 */
-	function t03_invalid() {echo df_json_encode_pretty(F::p('invalid'));}
+	function t03_invalid() {echo df_json_encode(F::p('invalid'));}
 }
