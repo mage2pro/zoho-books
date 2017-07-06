@@ -12,4 +12,7 @@ final class Basic extends TestCase {
 
 	/** @test 2017-07-05 */
 	function t02_organizations() {echo df_json_encode_pretty(F::organizations());}
+
+	/** 2017-07-06 */
+	function t03_invalid() {echo df_json_encode_pretty(F::p('invalid'));}
 }
