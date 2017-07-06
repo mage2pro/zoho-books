@@ -1,6 +1,6 @@
 <?php
 namespace Dfe\ZohoBooks\T;
-use Dfe\ZohoBooks\API\R;
+use Dfe\ZohoBooks\API\Facade as F;
 use Dfe\ZohoBooks\Settings as S;
 // 2017-07-05
 final class Basic extends TestCase {
@@ -11,5 +11,5 @@ final class Basic extends TestCase {
 	function t01_token() {echo S::s()->token();}
 
 	/** @test 2017-07-05 */
-	function t02_organizations() {echo df_json_encode_pretty(R::organizations());}
+	function t02_organizations() {echo df_json_encode_pretty(F::organizations());}
 }
