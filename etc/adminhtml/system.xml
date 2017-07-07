@@ -56,7 +56,10 @@
 				>
 					<label>Organization</label>
 					<source_model>Df\ZohoBI\Source\Organization</source_model>
-					<comment><![CDATA[]]></comment>
+					<comment><![CDATA[In Zoho Books, your business is termed as an organization.
+<br/>If you have multiple businesses, you simply set each of those up as an individual organization.
+<br/>Each organization is an independent Zoho Books organization  with it’s own organization ID, base currency, time zone, language, contacts, reports, etc.
+<br><a href='https://www.zoho.com/books/api/v3/#organization-id' target='blank'>zoho.com/books/api/v3/#organization-id</a>]]></comment>
 					<depends>
 						<field id='enable'>1</field>
 					</depends>
