@@ -47,6 +47,20 @@
 					</depends>
 					<validate>required-entry</validate>
 				</field>
+				<field
+					id='organization'
+					showInDefault='1' showInStore='1' showInWebsite='1'
+					sortOrder='3'
+					translate='label'
+					type='select'
+				>
+					<label>Organization</label>
+					<source_model>Df\ZohoBI\Source\Organization</source_model>
+					<comment><![CDATA[]]></comment>
+					<depends>
+						<field id='enable'>1</field>
+					</depends>
+				</field>
 			</group>
 		</section>
 	</system>
