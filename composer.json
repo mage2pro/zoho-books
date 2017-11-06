@@ -1,7 +1,7 @@
 {
 	"name": "mage2pro/zoho-books"
 	,"version": "0.0.9"
-	,"description": "The «Zoho Books» extension for Magento 2."
+	,"description": "Zoho Books integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/mage2pro/zoho-books"
 	,"license": "proprietary"
