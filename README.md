@@ -1,4 +1,4 @@
-The extension integrates your Magento 2 store with the **[Zoho Books](https://www.zoho.eu/books)** accounting software.  
+The extension integrates your Magento 2 based webstore with the **[Zoho Books](https://www.zoho.eu/books)** accounting software.  
 See also my Magento 2 extensions for [Zoho CRM](https://github.com/mage2pro/zoho-crm) and [Zoho Inventory](https://github.com/mage2pro/zoho-inventory).
 
 ## How to buy
