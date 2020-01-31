@@ -1,5 +1,5 @@
 <?php
-namespace Dfe\ZohoBooks\T;
+namespace Dfe\ZohoBooks\Test;
 use Dfe\ZohoBooks\API\Facade as F;
 use Dfe\ZohoBooks\Settings as S;
 // 2017-07-05
