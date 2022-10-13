@@ -1,8 +1,8 @@
 The module integrates a Magento 2 based webstore with the **[Zoho Books](https://www.zoho.eu/books)** accounting software.  
 See also my Magento 2 extensions for [Zoho CRM](https://github.com/mage2pro/zoho-crm) and [Zoho Inventory](https://github.com/mage2pro/zoho-inventory).  
-The module is **free** and **open source**.
-The extension is not released yet.  
-The extension will be released when I will want so.   
+The module is **free** and **open source**.  
+The module is not released yet.  
+The module will be released when I will want so.   
 
 ## How to install
 [Hire me in Upwork](https://www.upwork.com/fl/mage2pro), and I will: 
