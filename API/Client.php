@@ -7,7 +7,6 @@ final class Client extends \Df\ZohoBI\API\Client {
 	 * @override
 	 * @see \Df\ZohoBI\API\Client::version()
 	 * @used-by \Df\ZohoBI\API\Client::urlBase()
-	 * @return int
 	 */
-	protected function version() {return 3;}
+	protected function version():int {return 3;}
 }
