@@ -63,7 +63,7 @@ So the `sortOrder` value is 1920. -->
 					type='select'
 				>
 					<label>Organization</label>
-					<source_model>Df\ZohoBI\Source\Organization</source_model>
+					<source_model>Dfe\ZohoBI\Source\Organization</source_model>
 					<comment><![CDATA[In Zoho Books, your business is termed as an organization.
 <br/>If you have multiple businesses, you simply set each of those up as an individual organization.
 <br/>Each organization is an independent Zoho Books organization  with it’s own organization ID, base currency, time zone, language, contacts, reports, etc.

@@ -1,6 +1,6 @@
 {
 	"name": "mage2pro/zoho-books"
-	,"version": "0.2.0"
+	,"version": "0.2.1"
 	,"description": "Zoho Books integration with Magento 2"
 	,"type": "magento2-module"
 	,"homepage": "https://github.com/mage2pro/zoho-books"
